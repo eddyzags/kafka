@@ -6,5 +6,5 @@
     "uris": [
         "https://github.com/eddyzags/kafka/archive/master.tar.gz"
     ],
-    "cmd": "$(pwd)/run.sh --user root --master zk://5.196.75.109:2181,5.196.75.110:2181,5.196.75.111:2181/mesos --zk 5.196.75.109:2181,5.196.75.110:2181,5.196.75.111:2181/kafka-scheduler --storage zk:/kafka-scheduler"
+    "cmd": "$(pwd)/kafka-master/run.sh --user root --master zk://5.196.75.109:2181,5.196.75.110:2181,5.196.75.111:2181/mesos --zk 5.196.75.109:2181,5.196.75.110:2181,5.196.75.111:2181/kafka-scheduler --storage zk:/kafka-scheduler"
 }
