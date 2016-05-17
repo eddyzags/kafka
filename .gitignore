@@ -2,6 +2,7 @@ out/*
 project/*
 .gradle
 *.iml
+*.ipr
 todo.txt
 
 src/docker/.docker
@@ -9,3 +10,6 @@ src/vagrant/.vagrant
 
 kafka-mesos*.json
 kafka-mesos*.properties
+kafka-mesos*.jar
+jre*.tar.gz
+kafka*.tgz
